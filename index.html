@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Md Rezaul Karim — Portfolio</title>
+  <meta name="description" content="Portfolio of Md Rezaul Karim: projects, writing, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#home">Md Rezaul Karim</a>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#writing">Writing</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <h1>Human-centered analytics & systems</h1>
+        <p class="sub">I design and build practical solutions in accounting information systems, data, and operations.</p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn primary">Explore Projects</a>
+          <a href="#contact" class="btn">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Harakeke Brew AIS Case</h3>
+          <p>End-to-end documentation: flowcharting, control analysis, and submission-ready materials.</p>
+          <a class="card-link" href="#">View docs</a>
+        </article>
+        <article class="card">
+          <h3>Community Patrols NZ (CPNZ)</h3>
+          <p>Volunteer onboarding checklist and reporting templates to streamline operations.</p>
+          <a class="card-link" href="#">View toolkit</a>
+        </article>
+        <article class="card">
+          <h3>Data Clean Room (Demo)</h3>
+          <p>Python notebooks demonstrating privacy-preserving analytics for small teams.</p>
+          <a class="card-link" href="#">View repo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="writing" class="section alt">
+      <h2>Writing</h2>
+      <ul class="list">
+        <li><a href="#">Designing 3-way match controls that people actually follow</a></li>
+        <li><a href="#">From spreadsheets to systems: small steps that stick</a></li>
+        <li><a href="#">Volunteering and operational discipline: lessons from CPNZ</a></li>
+      </ul>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>Hi, I’m Md Rezaul Karim. I enjoy turning messy processes into clear, actionable systems. My interests include AIS, internal controls, and practical automation. I’m based in New Zealand and actively volunteer with CPNZ.</p>
+      <div class="badges">
+        <span class="badge">AIS</span>
+        <span class="badge">Flowcharting</span>
+        <span class="badge">Controls</span>
+        <span class="badge">Python</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <h2>Contact</h2>
+      <p>Best way to reach me: <a href="mailto:mdrezaulkarim.aut@gmail.com">mdrezaulkarim.aut@gmail.com</a>. You can also find me on <a href="https://github.com/MdRezaulKarim-AUT" target="_blank" rel="noopener">GitHub</a>.</p>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks! I will get back to you soon.');">
+        <div class="row">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Your email" required />
+        </div>
+        <textarea placeholder="Your message" rows="5" required></textarea>
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Md Rezaul Karim • Built with GitHub Pages</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
