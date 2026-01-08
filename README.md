@@ -1,19 +1,14 @@
 
 # Md Rezaul Karim — Portfolio
 
-A lightweight, single-page portfolio built for GitHub Pages.
+A lightweight, single-page portfolio for GitHub Pages.
 
-## Deploy to GitHub Pages
-1. Create a GitHub repository named `md-rezaul-karim.github.io`.
-2. Add these files to the repository root (index.html, assets/...).
-3. Commit & push to `main` branch.
-4. In **Settings → Pages**, set **Source** to `Deploy from a branch` → `main` → `/root`.
-5. Wait ~2 minutes; your site will be live at `https://md-rezaul-karim.github.io/`.
+## How to deploy
+1. Create a repository named `mdrezaulkarim-aut.github.io` (or your GitHub-username.github.io).
+2. Upload these files to the repository root.
+3. Enable Pages: Settings → Pages → Source: main → /(root).
+4. Open https://<your-username>.github.io/.
 
-## Customize
-- Edit `index.html` hero text and project cards.
-- Replace placeholder email and links.
-- Add images under `assets/img/`.
-
-## License
-MIT
+## Replace the placeholder photo and CV
+- Put your photo at `assets/img/profile_placeholder.png` (or update `index.html` to point to your filename).
+- Replace `cv/Md_Rezaul_Karim_CV.pdf` with your actual CV.
